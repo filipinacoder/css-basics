@@ -1,47 +1,77 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Random</title>
-        <link rel="stylesheet" href="normalise.css" />
-        <link rel="stylesheet" href="style.css" />
-    </head>   
-    <body>
-        <header id="headers">
-            <div class="logo">
-                <a href="#main">
-                    <img src="#" alt="Discount Club">
-                </a>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li>Search</li>
-                    <li>About</li>
-                    <li>Clients</li>
-                    <li>Asscociates</li>
-                    <li>Sale</li>
-                </ul>
-            </nav>
-        </header>
+	<head>
+		<title>Discount Club</title>
+		<link rel="stylesheet" href="/styles/normalise.css" />
+		<link rel="stylesheet" href="/styles/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<header id="headers">
+			<div class="logo">
+				<a href="#main">
+					<img src="/images/logo.png" alt="Discount Club" />
+				</a>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li>
+						<span><i class="fa fa-search"></i></span>
+					</li>
+					<li>About</li>
+					<li>Clients</li>
+					<li>Associates</li>
+					<li>Sale</li>
+				</ul>
+			</nav>
+		</header>
 
-        <main id="main">
-            <div class="description">
-                <h1>DISCOUNT CLUB</h1>
-                <h3>Save more. Live more</h3>
-                <ul>
-                    <li>instagram</li>
-                    <li>youtube</li>
-                    <li>facebook</li>
-                </ul>
-                <button>Join Club</button>
-            </div>
-            <div>
-                <img src="https://via.placeholder.com/800x800" alt="Apple Products">
-            </div>
-        </main>
-        <footer>
-            <h5>#itsgonnabemay countdown</h5>
-            <img src="" alt="Countdown Timer">
-            <button>Go to Sale</button>
-        </footer>
-    
-    </body>
+		<main id="main">
+			<div class="description">
+				<h1>DISCOUNT CLUB</h1>
+				<h3>Save more. Live more</h3>
+				<ul>
+					<li>
+						<span><i class="fa fa-instagram"></i></span>
+					</li>
+					<li>
+						<span><i class="fa fa-youtube-square"></i></span>
+					</li>
+					<li>
+						<span><i class="fa fa-facebook-f"></i></span>
+					</li>
+				</ul>
+				<button class="join-club-button">Join Club</button>
+			</div>
+			<div>
+				<img src="/images/product.png" alt="Apple Products" />
+			</div>
+		</main>
+		<footer>
+			<span>
+				<h5>#itsgonnabemay</h5>
+				<h5>countdown</h5>
+			</span>
+
+			<span class="countdown-timer">
+				<h1>02</h1>
+				<h5>DAYS</h5>
+				<h1>22</h1>
+				<h5>HRS</h5>
+				<h1>12</h1>
+				<h5>MINS</h5>
+			</span>
+			<button class="sale-button">
+				Go to Sale
+				<span><i class="fa fa-long-arrow-alt-right"></i></span>
+			</button>
+		</footer>
+	</body>
 </html>
