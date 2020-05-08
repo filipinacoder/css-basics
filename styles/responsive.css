@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+	header {
+		border: 1px solid red;
+	}
+}
+
+@media (max-width: 992px) {
+	header {
+		border: 1px solid blue;
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+		border: 1px solid orange;
+	}
+}
+
+@media (max-width: 576px) {
+	header {
+		border: 1px solid green;
+		padding-right: 0 !important;
+	}
+	main div {
+		width: 100% !important;
+	}
+	.description {
+		text-align: center;
+	}
+	.description ul {
+		justify-content: center;
+	}
+	header,
+	main,
+	footer {
+		flex-wrap: wrap;
+		margin-left: 0;
+		padding-left: 3% !important;
+	}
+	footer span {
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.sale-button {
+		width: 100%;
+	}
+}

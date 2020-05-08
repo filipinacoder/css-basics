@@ -8,7 +8,6 @@
 }
 
 #headers {
-	border: 1px solid lightgreen;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 110px;
@@ -17,17 +16,17 @@
 	padding-bottom: 30px;
 }
 .logo {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 .menu {
-	border: 1px solid blue;
+	border: 0px solid blue;
 	display: flex;
 }
 
 .menu a {
 	color: black;
 	text-decoration: none;
-	border: 1px solid orange;
+	border: 0px solid orange;
 	display: inline-block;
 	justify-content: space-between;
 	margin: 10px 10px 10px 10px;
@@ -42,33 +41,32 @@
 }
 
 #main {
-	border: 1px solid yellow;
+	border: 0px solid yellow;
 	display: flex;
+	background-color: #f9fafc;
+	padding-left: 110px;
 }
 
 #main > div {
 	width: 50%;
 	/* border: 1px solid green; */
-	background-color: #f9fafc;
 }
 
 .description {
 	margin-top: 130px;
-	border: 1px soli blue;
-	padding-left: 110px;
+	border: 0px solid blue;
 }
 
 .description ul {
 	list-style-type: none;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	padding-left: 0;
-	width: 100px;
 }
 
 .description ul li {
-	margin: 5px 5px 5px 5px;
-	border: 1px solid green;
+	border: 0px solid green;
+	margin-right: 40px;
 }
 
 .join-club-button {
@@ -117,7 +115,7 @@ main div h3 {
 }
 
 footer {
-	border: 2px solid blueviolet;
+	border: 0px solid blueviolet;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 110px;
