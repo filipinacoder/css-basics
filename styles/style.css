@@ -13,6 +13,8 @@
 	justify-content: space-between;
 	padding-left: 110px;
 	padding-right: 110px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 .logo {
 	border: 1px solid red;
@@ -30,6 +32,13 @@
 	justify-content: space-between;
 	margin: 10px 10px 10px 10px;
 	padding-left: 0;
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+.sale-nav {
+	color: #de6a6a !important;
 }
 
 #main {
@@ -39,12 +48,13 @@
 
 #main > div {
 	width: 50%;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	background-color: #f9fafc;
 }
 
 .description {
-	border: 1px solid violet;
+	margin-top: 130px;
+	border: 1px soli blue;
 	padding-left: 110px;
 }
 
@@ -58,14 +68,17 @@
 
 .description ul li {
 	margin: 5px 5px 5px 5px;
+	border: 1px solid green;
 }
 
 .join-club-button {
+	margin-top: 40px;
 	background-color: #323433;
 	color: white;
 	padding: 15px 32px;
 	text-align: center;
 	font-weight: 200;
+	margin-bottom: 90px;
 }
 
 main div img {
@@ -75,26 +88,32 @@ main div img {
 main div h1 {
 	font-size: 48px;
 	letter-spacing: 2.4px;
+	margin-bottom: 0;
+	margin-top: 10px;
 }
 
 main div h3 {
+	margin-top: 20px;
 	font-weight: 200;
 	font-size: 36px;
 	letter-spacing: 1.28px;
+	margin-bottom: 30px;
 }
 
 .countdown-timer {
 	display: flex;
 	justify-content: space-between;
-	width: 50px;
 }
 
 .countdown-timer h1 {
 	font-weight: 100;
+	margin-left: 10px;
 }
 
 .countdown-timer h5 {
-	font-weight: 200;
+	font-weight: 100;
+	margin: auto;
+	margin-left: 10px;
 }
 
 footer {
@@ -106,9 +125,18 @@ footer {
 
 footer span h5 {
 	font-weight: 200;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.hashtag-campaign {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .sale-button {
+	width: 260px;
 	background-color: #de6a6a;
 	color: white;
 	padding: 15px 32px;
